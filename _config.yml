@@ -1,0 +1,133 @@
+# Haixiang Sun — personalized Academic Pages site.
+# Homepage content lives in _data/profile.json.
+locale: "en-US"
+site_theme: "default"
+title: "Haixiang Sun"
+title_separator: "|"
+name: "Haixiang Sun"
+description: "Haixiang Sun — Ph.D. student in Industrial Engineering at Purdue University."
+url: "https://hsun08.github.io"
+baseurl: ""
+repository: "hSun08/hsun08.github.io"
+
+author:
+  name: "Haixiang Sun"
+  bio: "Ph.D. student in Industrial Engineering"
+  location: "West Lafayette, Indiana"
+  employer: "Purdue University"
+  email: "sun1321@purdue.edu"
+  github: "hSun08"
+
+social:
+  type: "Person"
+  name: "Haixiang Sun"
+  links:
+    - "https://github.com/hSun08"
+
+breadcrumbs: false
+future: false
+comments:
+  provider: false
+analytics:
+  provider: false
+atom_feed:
+  hide: true
+
+# Preserve the Academic Pages structure while publishing only the new homepage.
+include:
+  - _pages
+  - files
+exclude:
+  - .github
+  - .openai
+  - .devcontainer
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - _drafts
+  - _posts
+  - _portfolio
+  - _publications
+  - _talks
+  - _teaching
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - scripts
+  - dist
+  - node_modules
+  - vendor
+  - local
+  - tmp
+  - log
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - AGENTS.md
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - Dockerfile
+  - docker-compose.yaml
+  - _config_docker.yml
+  - _pages/404.md
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/cv.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/publications.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+
+collections:
+  teaching:
+    output: false
+  publications:
+    output: false
+  portfolio:
+    output: false
+  talks:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: academic-home
+      author_profile: false
+
+encoding: "utf-8"
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+timezone: America/New_York
+kramdown:
+  input: GFM
+  hard_wrap: false
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+whitelist:
+  - jekyll-sitemap
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

@@ -1,0 +1,367 @@
+{
+  "name": "Haixiang Sun",
+  "email": "sun1321@purdue.edu",
+  "role": "Ph.D. student in the Edwardson School of Industrial Engineering",
+  "school": "Edwardson School of Industrial Engineering",
+  "affiliation": "Purdue University",
+  "location": "West Lafayette, Indiana, USA",
+  "advisor": {
+    "name": "Dr. Andrew Liu",
+    "url": "https://engineering.purdue.edu/Intel2Grid/about"
+  },
+  "bio": [
+    "I’m Haixiang Sun, a Ph.D. student in the Edwardson School of Industrial Engineering at Purdue University, advised by Dr. Andrew Liu. I work at the intersection of machine learning and optimization to make decisions more reliable under uncertainty.",
+    "My research brings the structure of optimization into learning systems, spanning differentiable optimization, optimal transport, and scalable machine learning, with applications in energy scheduling and beyond."
+  ],
+  "research": [
+    {
+      "title": "Decisions under uncertainty",
+      "summary": "Learning decision rules that remain reliable when data is limited, distributions shift, or rare events occur.",
+      "tags": [
+        "Decision-focused learning",
+        "Optimal transport",
+        "Robust optimization"
+      ]
+    },
+    {
+      "title": "Differentiable optimization",
+      "summary": "Bringing optimization into neural networks through differentiable layers and implicit models.",
+      "tags": [
+        "Optimization layers",
+        "Implicit models",
+        "Neural collapse"
+      ]
+    },
+    {
+      "title": "Scalable & reliable ML",
+      "summary": "Developing scalable learning methods for reliable decision making, with a focus on generalization and large language models.",
+      "tags": [
+        "Generalization",
+        "Large language models"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Purdue University",
+      "degree": "Ph.D. in Industrial Engineering",
+      "dates": "Aug. 2024–Present",
+      "detail": "Edwardson School of Industrial Engineering. Machine learning and operations research; robust decision making under uncertainty."
+    },
+    {
+      "institution": "ShanghaiTech University",
+      "degree": "Master in Computer Science",
+      "dates": "Sept. 2021–Jul. 2024",
+      "detail": "Machine learning theory and neural network interpretability. Overall GPA: 3.84/4.0; major GPA: 3.86/4.0."
+    },
+    {
+      "institution": "Beijing Forestry University",
+      "degree": "Bachelor’s degree in Information Management and Information System",
+      "dates": "Sept. 2017–Jun. 2021",
+      "detail": "GPA: 3.83/4.0. Outstanding bachelor graduate; Excellent Graduation Thesis (Top 1%)."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Talk Less, Work More: Communication-Efficient Decentralized Stochastic Approximation",
+      "authors": "T. Cao, H. Sun, Y. Xu",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "status": "published",
+      "topic": "Optimization",
+      "url": "https://neurips.cc/virtual/2026/poster/155976",
+      "figure": {
+        "src": "assets/images/papers/talk-less.png",
+        "alt": "Decentralized Q-learning estimation error versus communication rounds, comparing DLSA with 1, 3, 6, 8, or 10 local updates against DCSA.",
+        "caption": "Estimation error versus communication rounds in decentralized Q-learning.",
+        "sourceUrl": "./files/Decentralized_Local_SA.pdf#page=9",
+        "number": 1,
+        "page": 9
+      }
+    },
+    {
+      "title": "Beyond Empirical Support: Structured Outlier Generation via Sinkhorn Optimal Transport",
+      "authors": "H. Sun, A. L. Liu",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "status": "published",
+      "topic": "Optimization",
+      "url": "https://arxiv.org/abs/2609.31470",
+      "figure": {
+        "alt": "SBOG pipeline: time-series or image inputs are encoded in latent space, Sinkhorn outlier energy selects boundary anchors, and a decoder produces structured outliers.",
+        "caption": "Sinkhorn Boundary Outlier Generation (SBOG) pipeline.",
+        "sourceUrl": "https://arxiv.org/pdf/2609.31470#page=4",
+        "number": 1,
+        "page": 4,
+        "src": "assets/images/papers/beyond.png"
+      },
+      "code": "https://github.com/hSun08/SBOG",
+      "codeLabel": "Repository"
+    },
+    {
+      "title": "Towards Reliable LLM Evaluation: Correcting the Winner’s Curse in Adaptive Benchmarking",
+      "authors": "Y. Xu, J. Zhang, H. Sun, Z. Zhou, T. Cao, V. Aggarwal",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "status": "published",
+      "topic": "Machine Learning",
+      "url": "https://arxiv.org/abs/2605.05973",
+      "figure": {
+        "src": "assets/images/papers/siren.png",
+        "alt": "The SIREN evaluation pipeline, from shortlist freezing to repeated-split inference and bootstrap confidence intervals.",
+        "caption": "The SIREN evaluation pipeline, from shortlist freezing to repeated-split inference and bootstrap confidence intervals.",
+        "sourceUrl": "https://arxiv.org/pdf/2605.05973#page=5",
+        "number": 1,
+        "page": 5
+      },
+      "code": "https://github.com/jefferyz001/siren"
+    },
+    {
+      "title": "Hierarchical Causal Structure Discovery from Layered Topological Orderings",
+      "authors": "H. Sun, P. Tian, Z. Zhou, A. L. Liu",
+      "venue": "International Journal of Data Science and Analytics",
+      "year": null,
+      "status": "accepted",
+      "topic": "Causality",
+      "url": "https://link.springer.com/article/10.1007/s41060-026-01211-9",
+      "figure": {
+        "src": "assets/images/papers/hitoc.png",
+        "alt": "HiTOC constructs hierarchical layers by recovering local Markov blankets and iteratively identifying sink nodes.",
+        "caption": "HiTOC constructs hierarchical layers by recovering local Markov blankets and iteratively identifying sink nodes.",
+        "sourceUrl": "https://link.springer.com/article/10.1007/s41060-026-01211-9",
+        "number": 2,
+        "page": 6
+      }
+    },
+    {
+      "title": "Robust Generalization with Adaptive Optimal Transport Priors for Decision-Focused Learning",
+      "authors": "H. Sun, A. L. Liu",
+      "venue": "AISTATS",
+      "year": 2026,
+      "status": "published",
+      "topic": "Optimization",
+      "url": "https://proceedings.mlr.press/v300/sun26a.html",
+      "figure": {
+        "alt": "Three heatmaps show adaptive optimal transport weights from source to target classes with 1-shot, 5-shot, and 10-shot support.",
+        "caption": "Adaptive optimal transport weights from source to target classes.",
+        "sourceUrl": "https://arxiv.org/pdf/2602.01427#page=6",
+        "number": 2,
+        "page": 6,
+        "src": "assets/images/papers/pgdro.png"
+      },
+      "code": "https://github.com/hSun08/PG-DRO"
+    },
+    {
+      "title": "Understanding Representation of Deep Equilibrium Models from Neural Collapse Perspective",
+      "authors": "H. Sun, Y. Shi",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "status": "published",
+      "topic": "Machine Learning",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/128911cc894d57bcae78074a9551c132-Abstract-Conference.html",
+      "figure": {
+        "src": "assets/images/papers/deq.png",
+        "alt": "Feature extraction with explicit neural networks and deep equilibrium models using a shared backbone.",
+        "caption": "Feature extraction with explicit neural networks and deep equilibrium models using a shared backbone.",
+        "sourceUrl": "https://arxiv.org/pdf/2410.23391#page=4",
+        "number": 1,
+        "page": 4
+      }
+    },
+    {
+      "title": "Alternating Differentiation for Optimization Layers",
+      "authors": "H. Sun, Y. Shi, J. Wang, H. D. Tuan, H. V. Poor, D. Tao",
+      "venue": "ICLR",
+      "year": 2023,
+      "status": "published",
+      "topic": "Optimization",
+      "url": "https://arxiv.org/abs/2210.01802",
+      "code": "https://github.com/HxSun08/Alt-Diff",
+      "figure": {
+        "alt": "Alt-Diff architecture embeds an optimization layer into a neural network and alternates primal, slack, and dual gradient updates.",
+        "caption": "Alt-Diff architecture and alternating differentiation updates.",
+        "sourceUrl": "https://arxiv.org/pdf/2210.01802#page=14",
+        "number": 3,
+        "page": 14,
+        "src": "assets/images/papers/altdiff.png"
+      }
+    },
+    {
+      "title": "CARVE: Breaking Data Barriers in Chip Placement by Harnessing Reusable Expertise",
+      "authors": "J. Zhang, H. Sun, Y. Xu, V. Aggarwal, Z. Wan",
+      "venue": "Manuscript under review",
+      "year": null,
+      "status": "review",
+      "topic": "Optimization",
+      "figure": {
+        "src": "assets/images/papers/carve.png",
+        "alt": "CARVE framework: validated specialist models support chip placement, reuse, and local adaptation across data barriers.",
+        "caption": "CARVE workflow for retaining validated specialists and reusing their expertise.",
+        "sourceUrl": "https://arxiv.org/pdf/2609.33106#page=3",
+        "number": 1,
+        "page": 3
+      },
+      "url": "https://arxiv.org/abs/2609.33106"
+    },
+    {
+      "title": "Reliable Replay through Spatial Coherence in Online Continual Learning",
+      "authors": "H. Sun, J. Zhang, Y. He, Y. Xu, V. Aggarwal, B. Bhargava, A. L. Liu",
+      "venue": "Manuscript under review",
+      "year": null,
+      "status": "review",
+      "topic": "Machine Learning",
+      "figure": {
+        "src": "assets/images/papers/sphere.png",
+        "alt": "SPHERE framework showing virtual-update scoring, spatial coherence, optimal transport, and replay-weighted model updates.",
+        "caption": "SPHERE combines spatial risk estimates with transport-based replay allocation.",
+        "sourceUrl": "https://arxiv.org/pdf/2609.33725#page=5",
+        "number": 2,
+        "page": 5
+      },
+      "url": "https://arxiv.org/abs/2609.33725"
+    },
+    {
+      "title": "Suppressing Pressure, Amplifying Evidence: Self-Guided Attention Steering to Mitigate Sycophancy and Stubbornness",
+      "authors": "Y. He, M. Xu, H. Sun, D. Li, Y. Wang, L. Wang, K. Chen, C. Li, C. Liu, B. Bhargava, C. Gao",
+      "venue": "Manuscript under review",
+      "year": null,
+      "status": "review",
+      "topic": "Machine Learning",
+      "figure": {
+        "src": "assets/images/papers/spae.png",
+        "alt": "SPAE locates pressure and information tokens, then steers softmax and gated linear attention to produce a grounded response.",
+        "caption": "SPAE steers attention by reducing user pressure and strengthening contextual evidence.",
+        "sourceUrl": "https://arxiv.org/pdf/2610.04329#page=5",
+        "number": 2,
+        "page": 5
+      },
+      "url": "https://arxiv.org/abs/2610.04329",
+      "code": "https://github.com/03Grant/sycophancy-and-stubbornness"
+    },
+    {
+      "title": "Diff2SP: Diffusion Models for Correlated Scenario Generation in Stochastic Programming",
+      "authors": "H. Sun, A. L. Liu",
+      "venue": "INFORMS Journal on Data Science",
+      "year": null,
+      "status": "review",
+      "topic": "Optimization",
+      "summary": "Major revision at INFORMS Journal on Data Science.",
+      "url": "https://arxiv.org/abs/2606.05649",
+      "figure": {
+        "alt": "Diff2SP pipeline showing forward diffusion, Transformer-based reverse denoising, and optimization-aware training combining noise-prediction, reconstruction, and decision-regret losses.",
+        "caption": "Diff2SP pipeline: diffusion, denoising, and optimization-aware training.",
+        "sourceUrl": "./files/Diffusion_Pipeline_2.pdf",
+        "number": null,
+        "page": 1,
+        "src": "assets/images/papers/diff2sp.png"
+      },
+      "code": "https://github.com/hSun08/Diff2SP"
+    },
+    {
+      "title": "Efficient Causal Structure Learning via Modular Subgraph Integration",
+      "authors": "H. Sun, P. Tian, Z. Zhou, J. Zhang, P. Li, A. L. Liu",
+      "venue": "Manuscript under review",
+      "year": null,
+      "status": "review",
+      "topic": "Causality",
+      "url": "https://arxiv.org/abs/2601.21014",
+      "code": "https://github.com/Pedro-Tian/causal-dag",
+      "figure": {
+        "src": "assets/images/papers/vista.png",
+        "alt": "VISTA combines local Markov blanket discovery, parallel subgraph learning, weighted voting, and cycle resolution.",
+        "caption": "VISTA combines local Markov blanket discovery, parallel subgraph learning, weighted voting, and cycle resolution.",
+        "sourceUrl": "https://arxiv.org/pdf/2601.21014#page=6",
+        "number": 3,
+        "page": 6
+      }
+    },
+    {
+      "title": "Core-Halo Decomposition: Decentralizing Large-Scale Fixed-Point Problems",
+      "authors": "T. Cao, H. Sun, Y. Xu, J. Zhang, X. Wu, Z. Zhou, J. He, J. Chen",
+      "venue": "Manuscript under review",
+      "year": null,
+      "status": "review",
+      "topic": "Optimization",
+      "figure": {
+        "src": "assets/images/papers/corehalo.png",
+        "alt": "Core updates use overlapping read-only halo regions as local context.",
+        "caption": "Core updates use overlapping read-only halo regions as local context.",
+        "sourceUrl": "https://arxiv.org/pdf/2605.08681#page=5",
+        "number": 2,
+        "page": 5
+      },
+      "url": "https://arxiv.org/abs/2605.08681"
+    }
+  ],
+  "teaching": [
+    {
+      "code": "SI152",
+      "title": "Numerical Optimization",
+      "institution": "ShanghaiTech University",
+      "term": "Spring 2022",
+      "description": "Created linear programming assignments, graded homework and projects, and held office hours."
+    },
+    {
+      "code": "SI251",
+      "title": "Convex Optimization",
+      "institution": "ShanghaiTech University",
+      "term": "Fall 2022",
+      "description": "Supported students with convex optimization concepts and graded homework and exams."
+    },
+    {
+      "code": "IE332",
+      "title": "Computing in Industrial Engineering",
+      "institution": "Purdue University",
+      "term": "Fall 2024, Spring 2025",
+      "description": "Led labs on MySQL, database management, and website development."
+    },
+    {
+      "code": "IE535",
+      "title": "Linear Programming",
+      "institution": "Purdue University",
+      "term": "Fall 2025",
+      "description": "Supported students with linear programming and simplex methods, and graded homework and exams."
+    },
+    {
+      "code": "IE546",
+      "title": "Economic Decisions in Engineering",
+      "institution": "Purdue University",
+      "term": "Spring 2026",
+      "description": "Teaching assistant."
+    }
+  ],
+  "talks": [
+    {
+      "event": "AAAI Bridge program – Combining AI and OR/MS for Better Trustworthy Decision Making",
+      "date": "Feb. 2025",
+      "location": "Philadelphia, PA"
+    },
+    {
+      "event": "INFORMS Annual Meeting",
+      "date": "Oct. 2025",
+      "location": "Atlanta, GA"
+    }
+  ],
+  "awards": [
+    "Theodore and Isabel Williams Fellowship in Industrial Engineering",
+    "Outstanding bachelor graduate in Beijing",
+    "Excellent Graduation Thesis in Beijing",
+    "First prize of Olympic mathematical contest"
+  ],
+  "skills": [
+    "Python",
+    "MATLAB",
+    "C/C++",
+    "LaTeX",
+    "Julia (learning)",
+    "Chinese",
+    "English"
+  ],
+  "reviewing": [
+    "NeurIPS",
+    "AAAI",
+    "ICLR",
+    "AISTATS",
+    "ICML"
+  ]
+}
