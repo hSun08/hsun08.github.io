@@ -63,23 +63,6 @@
   ],
   "publications": [
     {
-      "title": "Talk Less, Work More: Communication-Efficient Decentralized Stochastic Approximation",
-      "authors": "T. Cao, H. Sun, Y. Xu",
-      "venue": "NeurIPS",
-      "year": 2026,
-      "status": "published",
-      "topic": "Optimization",
-      "url": "https://neurips.cc/virtual/2026/poster/155976",
-      "figure": {
-        "src": "assets/images/papers/talk-less.png",
-        "alt": "Decentralized Q-learning estimation error versus communication rounds, comparing DLSA with 1, 3, 6, 8, or 10 local updates against DCSA.",
-        "caption": "Estimation error versus communication rounds in decentralized Q-learning.",
-        "sourceUrl": "./files/Decentralized_Local_SA.pdf#page=9",
-        "number": 1,
-        "page": 9
-      }
-    },
-    {
       "title": "Beyond Empirical Support: Structured Outlier Generation via Sinkhorn Optimal Transport",
       "authors": "H. Sun, A. L. Liu",
       "venue": "NeurIPS",
@@ -115,6 +98,24 @@
         "page": 5
       },
       "code": "https://github.com/jefferyz001/siren"
+    },
+    {
+      "title": "Talk Less, Work More: Communication-Efficient Decentralized Stochastic Approximation",
+      "authors": "T. Cao, H. Sun, Y. Xu",
+      "venue": "NeurIPS",
+      "year": 2026,
+      "status": "published",
+      "topic": "Optimization",
+      "url": "https://neurips.cc/virtual/2026/poster/155976",
+      "figure": {
+        "src": "assets/images/papers/talk-less-algorithm.jpg",
+        "alt": "Algorithm 1: Decentralized Local Stochastic Approximation (DLSA), alternating local stochastic approximation steps with a communication step.",
+        "caption": "Decentralized Local Stochastic Approximation (DLSA): local stochastic approximation steps followed by communication.",
+        "sourceUrl": "./files/Decentralized_Local_SA.pdf",
+        "kind": "algorithm",
+        "number": 1,
+        "page": null
+      }
     },
     {
       "title": "Hierarchical Causal Structure Discovery from Layered Topological Orderings",
